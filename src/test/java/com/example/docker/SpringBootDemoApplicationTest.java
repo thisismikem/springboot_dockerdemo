@@ -18,6 +18,7 @@ class SpringBootDemoApplicationTest {
 	@Test
 	void test() {
 		logger.info("... SpringBootDemoApplicationTest Start ...");
+		logger.info("... SpringBootDemoApplicationTest Start2 ...");
 		assertEquals(true, true);
 		logger.info("... SpringBootDemoApplicationTest End ...");
 	}
