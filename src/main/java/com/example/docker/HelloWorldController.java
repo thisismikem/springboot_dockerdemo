@@ -22,7 +22,8 @@ public class HelloWorldController {
 	
 	@GetMapping("/getSomething")
 	public String getSomething() {
-		throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
+		//throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
+		return "Hello Something";
 	}
 	
 }
